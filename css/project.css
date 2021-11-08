@@ -308,3 +308,80 @@ header {
     flex-shrink: 0;
     margin-left: 50px;
 }
+
+.rewiews__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.rewiews__title p {
+    margin: 0;
+}
+
+.rewiews__description {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.rewiews__description p {
+    margin: 30px auto 0;
+}
+
+.rewiews__caption {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.rewiews__caption_name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    margin: 30px auto 0;
+}
+
+.rewiews__caption_name p {
+    margin: 0;
+}
+
+.rewiews__caption_profession {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px;
+    margin: 0px auto;
+}
+
+.rewiews__caption_profession p {
+    margin: 0;
+}
+
+.rewiews {
+    max-width: 1071px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 184px;
+}
+
+.rewiews__text {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rewiews__stars {
+    display: flex;
+}
+
+.star {
+    margin-right: 25px;
+} 
+
+.rewiews__img {
+    max-width: 384px;
+}
