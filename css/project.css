@@ -1,0 +1,125 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    background: #FB8F1D;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+header {
+    max-width: 1301px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 109px;
+    padding-top: 35px;
+}
+
+.logo {
+    margin-left: 41px;
+    min-width: 41px;
+}
+
+.navigation {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.navigation__list {
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #B8BECD;
+}
+
+.navigation__item {
+    margin-left: 34px;
+}
+
+.account {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FB8F1D;
+    height: 44px;
+    width: 132px;
+    cursor: pointer;
+    margin-left: 34px;
+    background: white
+}
+
+.register {
+    margin-right: 54px;
+    width: 132px;
+    height: 44px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+
+.heading {
+    max-width: 1301px;
+    margin: 0 auto 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+
+.heading__title p {
+    margin: 0 0 74px;
+}
+
+.heading__description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+
+.heading__description p {
+    margin: 0 0 33px;
+}
+
+.heading__btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 60px;
+    width: 180px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.heading__img {
+    max-width: 687px;
+    width: 50%;
+    flex-shrink: 0;
+}
