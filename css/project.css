@@ -255,3 +255,56 @@ header {
     line-height: 24px;
     color: #80918E;
 }
+
+.headingtwo {
+    max-width: 1180px;
+    margin: 0 auto 371px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingtwo__inner {
+    max-width: 481px;
+}
+
+.headingtwo__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.headingtwo__title p {
+    margin: 0 0 20px;
+}
+
+.headingtwo__description {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.headingtwo__description p {
+    margin: 0 0 33px;
+}
+
+.headingtwo__btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 60px;
+    width: 164px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.headingtwo__img {
+    max-width: 687px;
+    width: 50%;
+    flex-shrink: 0;
+    margin-left: 50px;
+}
