@@ -385,3 +385,92 @@ header {
 .rewiews__img {
     max-width: 384px;
 }
+
+.section2 {
+    max-width: 1120px;
+    margin: 0 auto 232px;
+}
+
+.section2__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.section2__link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FB8F1D;
+    cursor: pointer;
+}
+
+.section2__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2__img {
+    background-repeat: no-repeat;
+    height: 233px;
+    width: 100%;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.image1 {
+background-image: url(../img/image-6.png);
+}
+
+.image2 {
+    background-image: url(../img/image-7.png);
+}
+
+.image3 {
+    background-image: url(../img/image-8.png);
+}
+
+.image4 {
+    background-image: url(../img/image-9.png);
+}
+
+.section2__images_inner {
+    max-width: 266px;
+}
+
+.section2__images_text {
+    font-family: 'Inter', sans-serif;
+}
+
+.section2__images_title {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.section2__images_description {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+}
+
+.section2__images_link a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FB8F1D;
+    cursor: pointer;
+}
