@@ -123,3 +123,55 @@ header {
     width: 50%;
     flex-shrink: 0;
 }
+
+.content {
+    max-width: 1242px;
+    margin: 0px auto 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__img {
+    max-width: 659px;
+    width: 53%;
+    flex-shrink: 0;
+}
+
+.content__inner {
+    max-width: 481px; 
+}
+
+.content__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.content__title p {
+    margin: 0 0 20px;
+}
+
+.content__description {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.content__description p {
+    margin: 0 0 33px;
+}
+
+.content__btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    width: 164px;
+    height: 48px;
+    cursor: pointer;
+}
